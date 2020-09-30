@@ -1,0 +1,39 @@
+h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
+body {font-family: "Open Sans"}
+header img{
+  position: static;
+}
+
+@media screen and (max-width: 490px) {
+header h1{
+  font-size: 32px;  
+  }
+  header h2{
+    font-size: 24px;  
+  }
+}
+
+@media screen and (max-width: 325px) {
+  header h1{
+    font-size: 26px;  
+  }
+  header h2{
+    font-size: 20px;  
+  }
+  }
+  @media screen and (max-width: 285px) {
+    header h1{
+      font-size: 20px;  
+    }
+    header h2{
+      font-size: 14px;  
+    }  
+    }
+    @media screen and (max-width: 260px) {
+      header h1{
+        font-size: 16px;  
+      }
+      header h2{
+        font-size: 12px;  
+      }  
+      }

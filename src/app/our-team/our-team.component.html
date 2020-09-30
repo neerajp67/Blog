@@ -1,0 +1,92 @@
+<h1 style="text-align: center;">Fukset</h1>
+<h6 style="text-align: center;">A journey started in 2016, finally reaching it's goal in 2020. Fukset is just not a name
+    of our company, it's a slang which connents our team. After a lots of ups and down here we are ready to build the
+    new world with our skills and talent. </h6>
+<hr style="height: 2px; color: black;">
+<h2 style="text-align:center">Our Team</h2>
+<!-- <div class="row">
+    <div class="column">
+        <div class="card">
+            <img src="assets\img\teamMember_Neeraj1.jpg" alt="Neeraj Pandey">
+            <div class="container">
+                <h5>Neeraj Pandey</h5>
+                <p class="title">Fullstack Developer</p>
+                <p>Neeraj Pandey is a fullstack developer. He holds engineering degree and diploma in computer science
+                    and engineering.</p>
+                <p>Neerajpandey@fukset.in</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="assets\img\teamMember_Gajendra.png" alt="Gajendra">
+            <div class="container">
+                <h5>Gajendra Kumar</h5>
+                <p class="title">Web Developer</p>
+                <p>Gajendra Kumar has good experience in web development. He has good knowledge of web designing.</p>
+                <p>Gajendrakumar@fukset.in</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="assets\img\teamMember_Manohar.png" alt="Manohar">
+            <div class="container">
+                <h5>Manohar Bisht</h5>
+                <p class="title">Salseforce Developer</p>
+                <p>Manohar Bisht holds experience as a salseforce developer. He has also worked android app development
+                </p>
+                <p>Monubisht@fukset.in</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="column">
+        <div class="card">
+            <img src="assets\img\teamMember_Shivam.png" alt="Shivam">
+            <div class="container">
+                <h5>Shivam Joshi</h5>
+                <p class="title">Java Developer</p>
+                <p>Shivam has good hand in software development. He has good knowledge of java and python</p>
+                <p>ShivamJoshi@fukset.in</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card">
+            <img src="assets\img\teamMember_Pankaj.jpg" alt="Pankaj">
+            <div class="container">
+                <h5>Pankaj Bora</h5>
+                <p class="title">Photographer & Designer</p>
+                <p>Pankaj Bora is an excilent photographer and has good knowledge of design pattern</p>
+                <p>Pankajbora@fukset.in</p>
+                <p><button class="button">Contact</button></p>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<div class="container">
+    <div *ngFor="let data of collection">
+        <div class="row">
+            <div class="col-md-3 mt-md-0 mt-3">
+                <div class="card">
+
+                    <div class="card-image">
+                        <img [src]="data.img">
+                        <!-- <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a> -->
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title">{{data.name}}</span>
+                        <p>{{data.Position}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

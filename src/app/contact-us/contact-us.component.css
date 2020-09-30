@@ -1,0 +1,15 @@
+@media screen and (max-width: 700px) {
+    label {   
+      font-size: small;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    label {   
+      font-size: smaller;
+    }
+  }
+  @media screen and (max-width: 350px) {
+    label {   
+      font-size: 10px;
+    }
+  }

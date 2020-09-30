@@ -1,0 +1,137 @@
+<!--Header-->
+<!-- <div class="header">
+  <div class="w3-container w3-tangerine">
+    <p id="title">{{title}}</p>
+  </div>
+  <p style=" margin-top: -2em;">{{subtitle}}</p>
+</div> -->
+
+<!-- Navigation -->
+<div class="navbar-fixed">
+  <nav class="blue">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo">Blogs</a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a routerLink="">Home</a></li>
+        <li><a routerLink="add">Add Destination<span class="sr-only">(current)</span></a></li>
+        <li><a routerLink="list">Destination List</a></li>
+        <li><a routerLink="login">Login</a></li>
+        <li><a routerLink="ourTeam">About Us</a></li>
+        <li><a routerLink="contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+</div>
+<ul class="sidenav" id="mobile-demo">
+  <li><a routerLink="">Home</a></li>
+  <li><a routerLink="add">Add Destination</a></li>
+  <li><a routerLink="list">Destination List</a></li>
+  <li><a routerLink="login">Login</a></li>
+  <li><a routerLink="ourTeam">About Us</a></li>
+  <li><a routerLink="contact">Contact Us</a></li>
+</ul>
+
+<div class="router-outlet">
+  <router-outlet></router-outlet>
+</div>
+
+<div class="socialLinks">
+  <p>Get connected with us on social networks..</p>
+  <a href="https://www.facebook.com/neerajp67/">
+    <img src="assets\img\facebook_icon.png" alt="Follow us on Facebook">
+  </a>
+  {{""}}
+  <a href="https://www.twitter.com/neerajp67/">
+    <img src="assets\img\twitter_icon.png" alt="Follow us on Twitter">
+  </a>
+  {{""}}
+  <a href="https://www.instagram.com/neerajp67/">
+    <img src="assets\img\instagram_icon.png" alt="Follow us on Instagram">
+  </a>
+  {{""}}
+  <a href="https://www.linkedin.com/in/neeraj-pandey-57351510a">
+    <img src="assets\img\linkedin_icon.png" alt="Follow us on Linkedin">
+  </a>
+  {{""}}
+  <a href="https://www.github.com/neerajp67/">
+    <img style="border-radius: 10px; background-color: aliceblue;" src="assets\img\github_icon_centerBlack.png"
+      alt="Github">
+  </a>
+</div>
+
+<!-- Footer -->
+<footer class="font-small blue pt-4">
+  <div class="container">
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase">Fukset</h5>
+          <p>Yas k Lafaya</p>
+          <p>All it requires is step out of your comfort zone.. Think Plan and start doing..</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">Quick Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a routerLink="">Home</a>
+            </li>
+            <li>
+              <a routerLink="add">Add Destination</a>
+            </li>
+            <li>
+              <a routerLink="list">Destination List</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a routerLink="ourTeam">About Us</a>
+            </li>
+            <li>
+              <a routerLink="contact">Contact</a>
+            </li>
+           
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+  </div>
+  <!-- Copyright -->
+  <div class="footer-copyright">
+    <p>© 2020 Copyright:
+      <a href="https://github.com/neerajp67/">FUKSET</a></p>
+  </div>
+  <!-- Copyright -->
+
+</footer>

@@ -1,0 +1,29 @@
+<h1>Add New Destination</h1>
+<div *ngIf="alert" class="alert alert-success alert-dismissible fade show" role="alert">
+    <strong>Sucess</strong> Destination has been added.
+    <button (click)="closeAlert()" type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>    
+<form [formGroup]="addResto" (ngSubmit)="collectResto()">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Name of the Destination</label>
+        <input type="text" class="form-control" formControlName="name"
+            placeholder="Enter Destination">
+
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Destination Type</label>
+        <input type="text" class="form-control"  formControlName="type"
+            placeholder="Enter Destination Type">
+
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Destination Address</label>
+        <input type="text" class="form-control"  formControlName="address"
+            placeholder="Enter Destination Address">
+
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

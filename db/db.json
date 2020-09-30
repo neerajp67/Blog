@@ -1,0 +1,113 @@
+{
+  "restaurants": [
+    {
+      "name": "Resto A",
+      "type": "Resto",
+      "address": "Street A",
+      "id": 1
+    },
+    {
+      "name": "Resto B",
+      "type": "Resto",
+      "address": "Street B",
+      "id": 2
+    },
+    {
+      "name": "Resto C",
+      "type": "Resto",
+      "address": "Street C",
+      "id": 3
+    },
+    {
+      "name": "Resto D",
+      "type": "Resto",
+      "address": "Street D",
+      "id": 4
+    },
+    {
+      "name": "Resto E",
+      "type": "Resto",
+      "address": "Street E",
+      "id": 5
+    },
+    {
+      "name": "Resto F",
+      "type": "Resto",
+      "address": "Street F",
+      "id": 6
+    }
+  ],
+  "blogs": [
+    {
+      "title": "Sera Gaon",
+      "description": "Munsyari, Pithoragarh",
+      "date": "September 9, 2018",
+      "img": "https://lh3.googleusercontent.com/j-gUsYck-uN38NevtX7ibBH4xibHKyDHB-HxkS8wmgHdAH_55szJC1vKDG9QbDragcBZA45e_og18KwEawPDiauQYRSJfY2h46sLvnQH29IvJQMdKfFvwoj4HategZ7g3tZT0aeM0Q=w600-h315-p-k",
+      "heading": "Sera Gaon, a beautiful place to visit this weekend, it's gonna be legendary!",
+      "post": "Sera Gaon is located in Munsyari block of Pithoragarh District. It is untouched beauty of nature. Just a glance is enough to steel your eyes. This village is around 300m far from Pithoragarh-Munsyari highway.",
+      "id": 1
+    },
+    {
+      "title": "Bengali Thali",
+      "description": "Midnapore,WB",
+      "date": "August 15, 2019",
+      "img": "https://lh3.googleusercontent.com/XOAeb_XYBLfPrEofaWYyuyixDfr1aJAjmyel9NeIM4GidlQeLbbXZq9_EJl_kaz6VUeIlXF4n7G8MGOmUZ7AQmftEAahxNZnvOZFZhravVfMENWQkJDKCABUTIpg6zsVl0ebh_jj0A=w600-h315-p-k",
+      "heading": "Bengali food without fish! ",
+      "post": "I was deployed in a project in Midnapore. I was staying in a guest house of Vidyasagar University. Staying in West Bengal and not eating fish is impossible. But after some day i was bored of fish, so i asked for any non-fish thali. And this is what what I got. It looks really nice and the taste was also incredible.",
+      "id": 2
+    },
+    {
+      "title": "Financially poor, Naturally rich ",
+      "description": "Champawat",
+      "date": "March 8, 2019",
+      "img": "https://lh3.googleusercontent.com/oCPUaEqJeLcWgBnvzhIpSVaUbGlGF6O4dediITryoZbpC53bpfGy7HhqPgRgjNupS9ww8suwiWeaSaFc67KG4bUyOjspCYK5zaZt8yiOxsvPiJtKcymIPfQJquUeL74GcXxTtVsv3A=w600-h315-p-k",
+      "heading": "Living in a paradice without sharing it with anyone",
+      "post": "This Place is something where i can spend hours just watching the beauty of nature. This village is located 15km to 20km ahead of Champawat city on Pithoragarh-Tanakpur Highway. Yes this place lacks in modern facilities and development, but it is naturally rich enough to live. I visited this place on 8th March 2019, would love to visit it again ",
+      "id": 3
+    }
+  ],
+  "teamMember": [
+    {
+      "name": "Neeraj Pandey",
+      "Position": "Full Stack Developer",
+      "img": "https://lh3.googleusercontent.com/sHNXrJZxA5GtE1aJdJmmtcFzeOxiXT3gPrEJz1TqSXB-SslSGabEnFaQvHINKC3M1NLIbC9pQGjOwR6DtmVQCXhDQz8W07oKy8zmo7l3JA6CNXoAXRpRz2B1_YAqC9cmhencek3thw=w600-h315-p-k",
+      "id": 1
+    },
+    {
+      "name": "Gajendra Kumar",
+      "Position": "Frontend Developer",
+      "img": "https://lh3.googleusercontent.com/rTlcsF4Xh_ZdCkGkqrZAOJ4ntj1zT4Qq3upKnjQDmDraRbykz5wNliCPBr9cGzYv0M0jut2260CuGuXHS6KcVCUZbumED1qGvF6T2ZVoMxLskG6flQbuN-TwohQc0eEZUG4I6WzmWg=w600-h315-p-k",
+      "id": 2
+    },
+    {
+      "name": "Manohar Bisht",
+      "Position": "Salesforce Developer",
+      "img": "https://lh3.googleusercontent.com/iG_F6W2oNHT1orkwrBSoBfnbDy-YiEaIso4gsJ933rEQprshemONuyXtnnjGyp2N6uWOWDfJ8-2VZpZN-xaRxVnZG86NwOsUOhvVGf_dc18qXs7Onlz-mSE70A1yN_X3RQ_j0AtGKw=w600-h315-p-k",
+      "id": 3
+    },
+    {
+      "name": "Shivam Joshi",
+      "Position": "Java Developer",
+      "img": "https://lh3.googleusercontent.com/1O95KE8ztJAZPRB7vMchDiFa1gRHjtzylIi2hhDIP7wzCCsyxzglcCU3O3GJunGsU0YV7Eeqi3XRQKIjyK50W0TUwUSqmnVyZ-f243weqMHo1NQoCcTaB5rukFUq70GhInIyLaHPCQ=w600-h315-p-k",
+      "id": 4
+    },
+    {
+      "name": "Pankaj Bora",
+      "Position": "Photographer",
+      "img": "https://lh3.googleusercontent.com/W9hAivG4qOfY5N7MXUvTerzXddeM7OZPiXIr2z7mkejGp_1R98UWmp7S_8ooBuOgGB3FkDJNYZKDZ5ezp7oA0NhqYEYx7Zugm6qaMdnSItGSb4OT6Vt-FnlsikZ2MQs7vIi2WqdDOg=w600-h315-p-k",
+      "id": 5
+    },
+    {
+      "name": "Ajay Chaturvedi",
+      "Position": "Python Developer",
+      "img": "https://lh3.googleusercontent.com/sbA48xB76qxo9Baad6q3hk-8q0RpVvd9POinyRcFKlzZDiysFsor_BrQEmk4mssAY15v9CgkfE0WnJjjZkh9UwsMR-iMcLg3Yi0QDcoV4MPtKIQdz4a4moGJbN-Hb75hQ77SQXuThA=w600-h315-p-k",
+      "id": 6
+    }
+  ],
+  "Cover-Image":[
+    {
+    "id": 1,
+    "url": "https://lh3.googleusercontent.com/yiLfJ13vM0AS3VlU2LHjzmDbvHGC3KgjJ97b4QKGh_HKuh8WJeyxJcU-bKWrnrKuYjpHIH0Oayd8g0B9gefKvkV_Nu5q3nKGFsyDewjYAQ3_DGTOQtnDI0PaEI2R1tjrQ0bnyDnUSg=w600-h315-p-k"
+  }
+    ]
+}

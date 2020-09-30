@@ -1,0 +1,27 @@
+
+<h1>
+  List of Destinations
+</h1>
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Destination</th>
+        <th scope="col">Destination Address</th>
+        <th scope="col">Destination Type</th>
+        <th scope="col">Operations</th>
+      </tr>
+    </thead> 
+    <tbody>
+      <tr *ngFor="let data of collection">
+        <th>{{data.id}}</th>
+        <td>{{data.name}}</td>
+        <td>{{data.address}}</td>
+        <td>{{data.type}}</td>
+        <th><i (click)="deleteResto(data.id)" class="fa fa-trash" style="font-size:20px;color:red;"></i>
+          {{ " "}}
+        <a routerLink="/update/{{data.id}}" ><i class="fa fa-edit" style="font-size:20px;color:blue;"></i></a></th>
+      </tr>
+       
+    </tbody>
+  </table>

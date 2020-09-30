@@ -1,0 +1,30 @@
+.table{
+    width: 80%;
+}
+
+@media screen and (max-width: 430px) {
+    .table{   
+      font-size: 12px;
+      
+    }
+  }
+  @media screen and (max-width: 360px) {
+    .table{   
+        font-size: 10px;
+    }
+  }
+  @media screen and (max-width: 330px) {
+    .table{   
+        font-size: 8px;
+    }
+  }
+  @media screen and (max-width: 330px) {
+    .table{   
+        font-size: 5px;
+    }
+  }
+  @media screen and (max-width: 330px) {
+    h1{   
+        font-size: small;
+    }
+  }

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "resto-register": {
+      "hosting": {
+        "resto": [
+          "resto-register"
+        ]
+      }
+    }
+  }
+}
